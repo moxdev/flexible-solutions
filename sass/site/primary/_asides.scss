@@ -1,0 +1,82 @@
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+    display: none;
+}
+
+#secondary aside {
+    margin-bottom:1.5em;
+}
+
+#secondary aside, .form-quick-contact-wrapper {
+    padding-left:1.2em;
+    padding-right:1.2em;
+}
+
+#secondary aside, .form-quick-contact-wrapper {
+    font-size:.9em;
+}
+
+aside h2 {
+    text-transform:uppercase;
+}
+
+aside#office-hours span, aside#address-phone span, aside#directions span {
+    display:block;
+}
+
+aside#address-phone span#side-city, aside#address-phone span.comma, aside#address-phone span#side-state, aside#address-phone span#side-zip {
+    display:inline;
+}
+
+.form-quick-contact-wrapper {
+    padding-top:1em;
+    padding-bottom:1em;
+    background-color:#808080;
+}
+
+.page-template-frontpage-a .form-quick-contact-wrapper, .page-template-frontpage-b .form-quick-contact-wrapper {
+    margin:1em;
+    padding:1em 1em 0 1em;
+    border:1px solid #000;
+    background-color:transparent;
+    max-width:1100px;
+}
+
+@media screen and (min-width:575px) {
+    #secondary aside, .form-quick-contact-wrapper {
+        padding-left:1.5em;
+        padding-right:1.5em;
+        padding-bottom:1.3em;
+    }
+
+    .form-quick-contact-wrapper {
+        padding-top:1.3em;
+    }
+
+    #secondary aside {
+        padding-top:0;
+    }
+
+    .page-template-frontpage-a .form-quick-contact-wrapper, .page-template-frontpage-b .form-quick-contact-wrapper {
+        margin:1.5em;
+        padding:1.5em 1.5em .5em;
+    }
+}
+
+@media screen and (min-width:975px) {
+    #secondary aside {
+        padding-left:0;
+        padding-right:0;
+        font-size:.8em;
+    }
+
+    .page-template-frontpage-a .form-quick-contact-wrapper, .page-template-frontpage-b .form-quick-contact-wrapper {
+        padding:2.5em 3.5em 1.5em;
+    }
+}
+
+@media screen and (min-width:1150px) {
+    .page-template-frontpage-a .form-quick-contact-wrapper, .page-template-frontpage-b .form-quick-contact-wrapper {
+        margin:2.5em auto;
+    }
+}

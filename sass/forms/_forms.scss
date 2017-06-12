@@ -1,0 +1,76 @@
+@import "buttons";
+@import "fields";
+
+form {
+    padding:0 0 1em 0;
+}
+
+.honey {
+    display:none!important;
+}
+
+.error-box {
+    border:1px solid #F00;
+    padding:.5em;
+    margin:0 0 .5em;
+    font-size:.9em;
+    display:none;
+    background-color:#FFF;
+}
+
+.error-box.has-errors {
+    display:block;
+}
+
+form .asterisk, .error-box {
+    color:#F00;
+}
+
+label {
+    display:block;
+    font-size:.875em;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+.form-quick-contact-wrapper form {
+    padding-top:.5em;
+    color:#FFF;
+}
+
+.form-quick-contact-wrapper h2 {
+    color:#FFF;
+}
+
+.page-template-frontpage-a .form-quick-contact-wrapper h2, .page-template-frontpage-b .form-quick-contact-wrapper h2 {
+    text-transform:uppercase;
+    text-align:center;
+}
+
+.page-template-frontpage-a .form-quick-contact-wrapper form, .page-template-frontpage-a .form-quick-contact-wrapper h2, .page-template-frontpage-b .form-quick-contact-wrapper form, .page-template-frontpage-b .form-quick-contact-wrapper h2 {
+    color:#000;
+}
+
+@media screen and (min-width:975px) {
+    .page-template-frontpage-a .form-quick-contact-wrapper form .flex, .page-template-frontpage-b .form-quick-contact-wrapper form .flex {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .page-template-frontpage-a .form-quick-contact-wrapper form .flex div, .page-template-frontpage-b .form-quick-contact-wrapper form .flex div {
+        -webkit-flex: 1 1 0%;
+        -ms-flex: 1 1 0%;
+        flex: 1 1 0%;
+    }
+
+    .page-template-frontpage-a .form-quick-contact-wrapper form .flex div, .page-template-frontpage-b .form-quick-contact-wrapper form .flex div {
+        padding:0 10px;
+    }
+}

@@ -1,0 +1,35 @@
+a {
+	color: #000;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+.tel {
+	text-decoration:none!important;
+}
+
+.tel:hover, .tel:active {
+	cursor:text!important;
+}
+
+.nav-links {
+	font-weight:500;
+	font-style:italic;
+}
+
+.blog .nav-links, .archive .nav-links, .search .nav-links {
+	padding:.5em 0;
+	border-bottom:1px solid #BFBFBF;
+	border-top:1px solid #BFBFBF;
+}
+
+.nav-links a {
+	text-decoration:none;
+}

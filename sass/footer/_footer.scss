@@ -1,0 +1,42 @@
+#colophon {
+    background-color:$color__footer-background;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+#colophon, #colophon a {
+    color:$color__footer-color;
+}
+
+#colophon .site-info {
+    font-size:.85em;
+}
+
+#colophon .site-info a.tel {
+    font-weight:700;
+    font-size:1.2em;
+}
+
+@media screen and (min-width:575px) {
+    #colophon .site-info {
+        font-size:.75em;
+    }
+
+    #colophon .site-info a.tel {
+        font-size:1.3em;
+    }
+}
+
+@media screen and (min-width:975px) {
+    #colophon .site-info {
+        float:left;
+        /*width:40%;*/
+    }
+
+    .page-template-frontpage-c.has-carousel #colophon {
+        position:fixed;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+}

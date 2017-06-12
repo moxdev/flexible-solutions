@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    margin:0;
+}
+
+.blog h1,
+.blog h2,
+.blog h3,
+.blog h4,
+.blog h5,
+.blog h6,
+.archive h1,
+.archive h2,
+.archive h3,
+.archive h4,
+.archive h5,
+.archive h6,
+.search h1,
+.search h2,
+.search h3,
+.search h4,
+.search h5,
+.search h6 {
+    clear:none;
+}
+
+h1 {
+    font-size: 1.6em;
+    margin:0 0 .2em 0;
+    font-weight:normal;
+    text-transform:uppercase;
+    line-height:1.1;
+}
+
+.entry-content h2 {
+    font-weight:normal;
+    text-transform:uppercase;
+    font-size:1.35em;
+    line-height:1.2;
+}

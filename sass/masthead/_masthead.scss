@@ -1,0 +1,78 @@
+#masthead {
+    border-bottom:1px solid #000;
+    padding-top:1em;
+    padding-bottom:1em;
+    background-color: $color__masthead-background;
+
+    .site-branding {
+        float:left;
+
+        a {
+            display:block;
+        }
+
+        img {
+            max-width:100px;
+        }
+    }
+
+    #masthead-tel {
+        float:right;
+        font-size:1.2em;
+        font-weight:500;
+        margin:10px 0 0 0;
+    }
+
+    @media screen and (min-width:575px) {
+        padding-top:1.3em;
+        padding-bottom:1.3em;
+
+        .site-branding img {
+            max-width:200px;
+        }
+    }
+
+    @media screen and (min-width:975px) {
+        #masthead-tel {
+            margin:2px 1em;
+        }
+    }
+
+    @media screen and (min-width:1200px) {
+        .site-branding img {
+            max-width:250px;
+        }
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+    .page-template-frontpage-b.has-carousel #masthead .site-branding {
+        margin-left:-125px;
+    }
+}
+
+@media screen and (min-width:975px) {
+    .page-template-frontpage-b.has-carousel #masthead #masthead-tel {
+        display:none;
+    }
+
+    .page-template-frontpage-b.has-carousel #masthead {
+        padding-top:0;
+        padding-bottom:0;
+    }
+
+    .page-template-frontpage-b.has-carousel #masthead .site-branding {
+        float:none;
+        position:absolute;
+        z-index:500;
+        left:50%;
+        margin-left:-100px;
+    }
+
+    .page-template-frontpage-c.has-carousel #masthead {
+        position:relative;
+        z-index:500;
+        background-color:#FFF;
+    }
+}

@@ -1,0 +1,62 @@
+#mobile-menu {
+    padding:1em;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
+    background-color:#EDEDED;
+
+    #mobile-main-nav {
+        padding-top: 3em;
+    }
+
+    ul {
+        margin:0 0 1em 25%;
+        transition:opacity .4s;
+        opacity:0;
+
+        li {
+            margin-left: 25%;
+
+            a {
+                font-weight:700;
+                text-decoration:none;
+                font-size:1.1em;
+                line-height:1.5;
+                display:block;
+                border: 1px soild red;
+            }
+        }
+
+        ul {
+            margin:0 0 0 1em;
+            padding:0;
+
+            li {
+
+                a {
+                    font-weight:400;
+                    font-size:.9em;
+                }
+            }
+        }
+    }
+}
+
+#mobile-menu.open ul {
+    opacity:1;
+}
+
+#mobile-menu ul > ul {
+    font-size:.9em;
+}
+
+@media screen and (min-width:975px) {
+    #mobile-menu {
+        display:none;
+    }
+}

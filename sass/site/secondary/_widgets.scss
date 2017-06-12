@@ -1,0 +1,39 @@
+.widget {
+    margin: 0 0 1.5em;
+}
+
+.widget.widget_categories ul, .widget.widget_archive ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.widget.widget_categories ul li a, .widget.widget_archive ul li a {
+    font-size:1.1em;
+    text-transform:uppercase;
+    padding:.35em 0;
+    display:block;
+    text-decoration:none;
+    color:#000;
+    border-bottom:1px solid #bfbfbf;
+}
+
+.widget.widget_categories ul li:last-child a, .widget.widget_archive ul li:last-child a {
+    border-bottom:none;
+}
+
+.widget.widget_categories ul li a:after, .widget.widget_archive ul li a:after {
+    content:'\203A';
+    margin:0 0 0 5px;
+    vertical-align:1px;
+}
+
+/* Make sure select elements fit in widgets. */
+.widget select {
+    max-width: 100%;
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+    display: none;
+}

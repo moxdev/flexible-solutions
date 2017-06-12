@@ -1,0 +1,26 @@
+.footer-navigation {
+    display:none;
+    float:right;
+    /*width:55%;*/
+    line-height:.7;
+
+    ul {
+        float:right;
+
+        li {
+            float:left;
+            margin-left:1em;
+
+            a {
+                font-size:.7em;
+                text-decoration:none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:975px) {
+    .footer-navigation {
+        display:block;
+    }
+}

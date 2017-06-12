@@ -1,0 +1,113 @@
+#home-highlight-inner-wrapper {
+    @include container;
+
+    .home-highlight {
+        @include margin-auto;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+        // padding:2em;
+        background-color:#808080;
+        color: #fff;
+        text-align:center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-bottom:1px solid #FFF;
+
+
+        a {
+            color: #fff;
+        }
+
+        span {
+            flex: 1 1 100%;
+            width: 100%;  // IE 10
+            font-size:1.1em;
+            line-height:1.1;
+        }
+
+        img {
+
+        }
+
+        .highlight-title {
+            font-size:1.8em;
+            font-weight:700;
+            margin:0 0 .2em 0;
+        }
+
+        .highlight-desc {
+            font-size:1.3em;
+        }
+
+        .highlight-url {
+            margin:1em 0 0 0;
+
+            a {
+                text-decoration:none;
+                text-transform:uppercase;
+            }
+        }
+    }
+
+    @media screen and (min-width:725px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        .home-highlight {
+            flex: 1 1 0%;
+            border-right:1px solid #FFF;
+
+            &:last-child {
+                border-right:none;
+            }
+
+            span {
+                font-size:.9em;
+            }
+
+            .highlight-title {
+                font-size:1.5em;
+            }
+        }
+
+        .highlight-3 span.highlight-desc {
+            font-size:1em;
+        }
+    }
+
+    @media screen and (min-width:975px) {
+        .home-highlight {
+            padding:4em 2em;
+        }
+    }
+}
+
+@media screen and (min-width:725px) {
+    .highlight-4 #home-highlight-inner-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .highlight-4 #home-highlight-inner-wrapper .home-highlight {
+        flex: 1 1 50%;
+    }
+
+    .highlight-4 #home-highlight-inner-wrapper .home-highlight:nth-child(2) {
+        border-right:none;
+    }
+}
+
+@media screen and (min-width:975px) {
+    .highlight-4 #home-highlight-inner-wrapper .home-highlight {
+        flex: 1 1 0%;
+    }
+
+    .highlight-4 #home-highlight-inner-wrapper .home-highlight:nth-child(2) {
+        border-right:1px solid #FFF;
+    }
+}
+
+

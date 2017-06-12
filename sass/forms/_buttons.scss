@@ -1,0 +1,65 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid $color__button-border;
+	border-radius: 0;
+	background-color: $color__button-background;
+	color: $color__button-color;
+	font-size: 12px;
+	font-size: 0.9em;
+	line-height: 1;
+	padding: .6em 1em .6em;
+	box-shadow: none;
+	-webkit-appearance: none;
+	 -moz-appearance: none;
+	 appearance: none;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: $color__button-border;;
+	background-color: $color__button-hover;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	border-color: $color__button-border;;
+	background-color: $color__button-focus;
+}
+
+button {
+	-webkit-appearance: none;
+	 -moz-appearance: none;
+	 appearance: none;
+}
+
+// Placeholder appearance
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $_color-brand-color-3;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $_color-brand-color-3;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $_color-brand-color-3;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $_color-brand-color-3;
+}
+
+// box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+// text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+//
+// // box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+//
+// 	// box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);

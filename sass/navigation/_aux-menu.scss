@@ -1,0 +1,25 @@
+.aux-navigation {
+    display:none;
+    float:right;
+    margin:3px 0;
+
+    ul li {
+        float:left;
+        margin-left:1em;
+    }
+
+    ul li:first-child {
+        margin-left:0;
+    }
+
+    ul li a {
+        font-size:.75em;
+        text-decoration:none;
+    }
+}
+
+@media screen and (min-width:975px) {
+    .aux-navigation {
+        display:block;
+    }
+}

@@ -1,0 +1,56 @@
+nav ul, ul.social-media, #mobile-menu ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+    display: block;
+}
+
+.menu-toggle {
+    float:right;
+    clear:right;
+    display:block;
+    width:35px;
+    height:35px;
+    text-indent:-9999em;
+    overflow:hidden;
+    margin:5px 0 0 10px;
+    background-color:transparent;
+    background-image:url(imgs/sprite-nav-icons.svg);
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    background-position:0 -462px;
+}
+
+.menu-toggle,
+.menu-toggle:hover,
+.menu-toggle:active {
+    box-shadow:none;
+    border-color:#FFF;
+}
+
+.menu-toggle:hover {
+    background-position:0 -495px;
+}
+
+@media screen and (min-width:575px) {
+    .menu-toggle {
+        width:40px;
+        height:40px;
+        background-position:0 -535px;
+    }
+
+    .menu-toggle:hover {
+        background-position:0 -573px;
+    }
+}
+
+@media screen and (min-width:975px) {
+    .menu-toggle {
+        display:none;
+    }
+}
