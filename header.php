@@ -66,6 +66,10 @@
 		mm4_you_photo_gallery();
 	} ?>
 
+	<?php if( has_post_thumbnail() && !is_page_template('frontpage-b.php') ): ?>
+		<?php echo the_post_thumbnail('featured-image', array('class' => 'featured-image')); ?>
+	<?php endif; ?>
+
 	<?php if ( has_nav_menu( 'primary' ) ) : ?>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'container' => '' ) ); ?>

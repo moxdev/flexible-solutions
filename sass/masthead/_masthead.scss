@@ -17,6 +17,7 @@
     }
 
     #masthead-tel {
+        display: none;
         float:right;
         font-size:1.2em;
         font-weight:500;
@@ -47,22 +48,25 @@
 
 
 @media screen and (min-width:1200px) {
-    .page-template-frontpage-b.has-carousel #masthead .site-branding {
+    .page-template-frontpage-b.has-carousel #masthead .site-branding,
+    .page-template-page-subnav #masthead .site-branding,
+    .page-template-page-single-column #masthead .site-branding {
         margin-left:-125px;
     }
 }
 
 @media screen and (min-width:975px) {
-    .page-template-frontpage-b.has-carousel #masthead #masthead-tel {
-        display:none;
-    }
-
-    .page-template-frontpage-b.has-carousel #masthead {
+    .page-template-frontpage-b.has-carousel #masthead,
+    .page-template-page-subnav #masthead,
+    .page-template-page-single-column #masthead {
         padding-top:0;
         padding-bottom:0;
     }
 
-    .page-template-frontpage-b.has-carousel #masthead .site-branding {
+    .page-template-frontpage-b.has-carousel #masthead .site-branding,
+    .page-template-page-subnav #masthead .site-branding,
+    .page-template-page-single-column #masthead .site-branding
+     {
         float:none;
         position:absolute;
         z-index:500;
