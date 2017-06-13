@@ -130,21 +130,21 @@ function mm4_you_customize_register( $wp_customize ) {
 	$wp_customize->add_control(
 		'setting_phone',
 		array(
-			'label' => 'Phone',
+			'label' => 'Phone Number 1',
 			'section' => 'company_contact_information',
 			'type' => 'text',
 		)
 	);
 	$wp_customize->add_setting(
-		'setting_fax',
+		'setting_phone_2',
 		array(
 			'sanitize_callback' => 'sanitize_text',
 		)
 	);
 	$wp_customize->add_control(
-		'setting_fax',
+		'setting_phone_2',
 		array(
-			'label' => 'Fax',
+			'label' => 'Phone Number 2',
 			'section' => 'company_contact_information',
 			'type' => 'text',
 		)

@@ -49,19 +49,27 @@
 			<?php endif; ?>
 			<div class="site-info">
 				<div>
-					<?php $add = get_theme_mod('setting_address');
-					$city = get_theme_mod('setting_city');
+					<?php
+					$add   = get_theme_mod('setting_address');
+					$name  = get_theme_mod('setting_name');
+					$city  = get_theme_mod('setting_city');
 					$state = get_theme_mod('setting_state');
-					$zip = get_theme_mod('setting_zip');
-					if($add): ?><span class="ftr-contact ftr-address"><?php echo $add; if($add2): echo ', ' . $add2; endif; ?></span><?php endif; if($city || $state || $zip): ?><span class="comma">, </span><?php endif;
-					if ($city): ?><span class="ftr-contact"><?php echo $city; ?></span><?php echo ', ' ; endif;
-					if ($state): ?><span class="ftr-contact"><?php echo $state; ?></span><?php echo ' '; endif;
-					if($zip): ?><span class="ftr-contact"><?php echo $zip; ?></span><?php endif; echo "\n"; ?>
+					$zip   = get_theme_mod('setting_zip');
+					$email = get_theme_mod('setting_email');
+					$ph    = get_theme_mod('setting_phone');
+					$ph2   = get_theme_mod('setting_phone_2');
+
+					if( $name ): ?><span class="company-name"><?php echo esc_html( $name ); ?></span><?php endif; echo "<br>";
+					if($ph): ?><span id="ph-1"><a class="tel" href="tel:<?php echo $ph; ?>"><?php echo $ph; ?></a></span><?php endif; echo "&#8226;";
+					if($ph2): ?><span id="ph-2"><a class="tel" href="tel:<?php echo $ph2; ?>"><?php echo $ph2; ?></a></span><?php endif; echo "&#8226;";
+					if($email): ?><span class="ftr-contact"><?php echo $email; ?></span><?php endif; echo "<br>";
+					if($add): ?><span class="ftr-contact ftr-address"><?php echo $add; if($add2): echo ', ' . $add2; endif; ?></span><?php endif; if($city || $state || $zip): ?><span class="comma"></span><?php endif;
+					if($city): ?><span class="ftr-contact"><?php echo $city; ?></span><?php echo ', ' ; endif;
+					if($state): ?><span class="ftr-contact"><?php echo $state; ?></span><?php echo ' '; endif;
+					if($zip): ?><span class="ftr-contact"><?php echo $zip; ?></span><?php endif; echo "\n";
+
+					?>
 				</div>
-				<?php $ph = get_theme_mod('setting_phone');
-				$fax = get_theme_mod('setting_fax');
-				if($ph): ?><span id="ph-1"><a class="tel" href="tel:<?php echo $ph; ?>"><?php echo $ph; ?></a></span><?php endif;
-				if($fax): ?><span id="ph-1"><?php echo $fax; ?></span><?php endif; ?>
 			</div><!-- .site-info -->
 		</div><!-- .wrapper -->
 	</footer><!-- #colophon -->
