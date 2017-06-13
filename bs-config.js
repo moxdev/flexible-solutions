@@ -31,7 +31,7 @@ module.exports = {
     ],
     "watchOptions": {},
     "server": false,
-    "proxy": 'http://localhost:8888/test-site/',
+    "proxy": 'http://localhost:8888/flexible-solutions/',
     "port": 3000,
     "middleware": false,
     "serveStatic": [],

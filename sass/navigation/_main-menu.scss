@@ -55,7 +55,9 @@
 }
 
 // FRONT PAGE B
-.page-template-frontpage-b {
+.page-template-frontpage-b,
+.page-template-page-subnav,
+.page-template-page-single-column {
 
     .main-navigation {
         float:none;
@@ -145,7 +147,9 @@
         padding:.5em .65em .25em;
     }
 
-    .page-template-frontpage-b .main-navigation ul li a {
+    .page-template-frontpage-b .main-navigation ul li a,
+    .page-template-page-subnav .main-navigation ul li a,
+    .page-template-page-single-column .main-navigation ul li a {
         padding:.35em 1em;
     }
 
@@ -153,7 +157,7 @@
         top:1.75em;
     }
 
-    .main-navigation ul ul li a, .page-template-frontpage-b .main-navigation ul ul li a {
+    .main-navigation ul ul li a, .page-template-frontpage-b .main-navigation ul ul li a, .page-template-page-subnav .main-navigation ul ul li a, .page-template-page-single-column .main-navigation ul ul li a {
         width: 225px;
         font-size:.8em;
         padding:.75em 1.15em;
@@ -165,7 +169,9 @@
         padding:.5em 1em .25em;
     }
 
-    .page-template-frontpage-b .main-navigation ul li a {
+    .page-template-frontpage-b .main-navigation ul li a,
+    .page-template-page-subnav .main-navigation ul li a,
+    .page-template-page-single-column .main-navigation ul li a {
         padding:.35em 1.5em
     }
 }

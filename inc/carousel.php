@@ -57,6 +57,7 @@ function mm4_you_home_carousel_type_1() {
     }
 }
 
+// frontpage-c
 function mm4_you_home_carousel_type_2() {
     if( is_page_template('frontpage-c.php') ) {
         if( function_exists('get_field') ) {

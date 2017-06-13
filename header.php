@@ -29,7 +29,7 @@
 			<div class="site-branding">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri() . '/imgs/logo.svg'?>" class="brand"></a>
 			</div><!-- .site-branding -->
-			
+
 			<?php $ph = get_theme_mod('setting_phone');
 			$fb = get_theme_mod('setting_facebook');
 			$tw = get_theme_mod('setting_twitter');
@@ -37,6 +37,7 @@
 			$li = get_theme_mod('setting_linked_in');
 			$yt = get_theme_mod('setting_you_tube');
 			if($fb || $tw || $goo || $li || $yt) { ?>
+
 			<ul class="social-media">
 				<?php if($fb): ?><li><a href="<?php echo $fb; ?>" id="social-link-fb" target="_blank">Find Us on Facebook</a></li><?php endif; ?>
 				<?php if($tw): ?><li><a href="<?php echo $tw; ?>" id="social-link-tw" target="_blank">Follow Us on Twitter</a></li><?php endif; ?>
@@ -45,41 +46,27 @@
 				<?php if($yt): ?><li><a href="<?php echo $yt; ?>" id="social-link-yt" target="_blank">View Our You Tube Channel</a></li><?php endif; ?>
 			</ul>
 			<?php }
-			
+
 			if ( has_nav_menu( 'primary' ) || has_nav_menu( 'aux' ) || has_nav_menu( 'footer' ) ) : ?>
 				<button class="menu-toggle" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mm4-you' ); ?></button>
-			<?php endif;
-			
-			if($ph): ?><div id="masthead-tel"><a class="tel" href="tel:<?php echo $ph; ?>"><?php echo $ph; ?></a></div><?php endif; ?>
-			
-			<?php if ( has_nav_menu( 'aux' ) && !is_page_template('frontpage-b.php') ) : ?>
-				<nav id="aux-navigation" class="aux-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'aux', 'menu_id' => 'aux-menu', 'container' => '' ) ); ?>
-				</nav>
-			<?php endif; ?>
-			
-			<?php if ( has_nav_menu( 'primary' ) && !is_page_template('frontpage-b.php') ) : ?>
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'container' => '' ) ); ?>
-				</nav><!-- #site-navigation -->
-			<?php endif; ?>
+			<?php endif;  ?>
 
 		</div><!-- .wrapper -->
 	</header><!-- #masthead -->
-	
+
 	<?php if( function_exists('mm4_you_home_carousel_type_1') ) {
 		mm4_you_home_carousel_type_1();
 	} ?>
-	
+
 	<?php if( function_exists('mm4_you_home_carousel_type_2') ) {
 		mm4_you_home_carousel_type_2();
 	} ?>
-	
+
 	<?php if( function_exists('mm4_you_photo_gallery') ) {
 		mm4_you_photo_gallery();
 	} ?>
-	
-	<?php if ( has_nav_menu( 'primary' ) && is_page_template('frontpage-b.php') ) : ?>
+
+	<?php if ( has_nav_menu( 'primary' ) ) : ?>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'container' => '' ) ); ?>
 		</nav><!-- #site-navigation -->
