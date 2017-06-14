@@ -48,6 +48,7 @@ function mm4_you_setup() {
 	add_image_size('gallery-thumb', 300, 200, true);
 	add_image_size('home-highlight-image', 300, 300, true);
 	add_image_size('featured-image', 1400, 360, true);
+	add_image_size('styles-image', 500, 500, true);
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -211,6 +212,11 @@ require get_template_directory() . '/inc/carousel.php';
  * Load highlight-boxes.
  */
 require get_template_directory() . '/inc/highlight-boxes.php';
+
+/**
+ * Load styles section on product pages.
+ */
+require get_template_directory() . '/inc/styles-section.php';
 
 /**
  * Load photo gallery.

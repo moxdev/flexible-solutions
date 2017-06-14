@@ -209,6 +209,12 @@
 		"oAP": "\/inc\/photo-gallery.php",
 		"oF": 0
 		},
+	"\/inc\/styles-section.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/styles-section.php",
+		"oF": 0
+		},
 	"\/inc\/template-tags.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2903,6 +2909,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content.php",
+		"oF": 0
+		},
+	"\/test-doc.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test-doc.html",
 		"oF": 0
 		}
 	},
