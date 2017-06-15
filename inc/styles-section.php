@@ -170,7 +170,7 @@ function mm4_you_styles_section() {
 
                   $header  = get_sub_field('section_header');
                   $editor  = get_sub_field('text_editor');
-                  $product = get_sub_field('product_section'); ?>
+                  $product = get_sub_field('product'); ?>
 
                   <div class="styles-image-section-repeater-wrapper">
 
@@ -187,63 +187,6 @@ function mm4_you_styles_section() {
                     endif; ?>
 
                     <?php if ( $product ): ?>
-
-                    <?php if( have_rows('product_section') ): ?>
-
-                        <div class="product-section-wrapper">
-
-                        <?php while( have_rows('product_section') ): the_row();
-
-                            $title   = get_sub_field('section_title');
-                            $sub     = get_sub_field('section_sub_title');
-                            $add_img = get_sub_field('add_image');
-
-                            ?>
-
-                            <div class="product-section-inner-wrapper">
-
-                              <?php if( $title ): ?>
-
-                                <div class="title">
-                                  <span><?php echo esc_html( $title ); ?></span>
-
-                                  <?php if ($sub): ?>
-                                    <span><?php echo esc_html( $sub ); ?></span>
-                                  <?php endif ?>
-
-                                </div><!-- title -->
-
-                              <?php endif; ?>
-
-                              <?php if ( $add_img): ?>
-
-                                <?php if( have_rows('add_image') ): ?>
-
-                                    <div class="image-wrapper">
-
-                                    <?php while( have_rows('add_image') ): the_row();
-
-                                        $img = get_sub_field('image'); ?>
-
-                                        <div class="image-inner-wrapper">
-
-                                          <img src="<?php echo $img['sizes']['styles-image-wide']; ?>" alt="<?php echo $img['alt']; ?>" description="<?php echo $img['description']; ?>">
-
-                                        </div><!-- image-inner-wrapper -->
-
-                                    <?php endwhile; ?>
-
-                                    </div><!-- image-wrapper -->
-
-                                <?php endif; ?>
-
-                              <?php endif ?>
-
-                            </div><!-- product-section-inner-wrapper -->
-
-                        <?php endwhile; ?>
-
-                        </div><!-- product-section-wrapper -->
 
                     <?php endif; ?>
 
