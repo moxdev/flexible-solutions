@@ -1,7 +1,7 @@
 #masthead {
-    border-bottom:1px solid #000;
+    border-bottom:none;
     padding-top:1em;
-    padding-bottom:1em;
+    // padding-bottom:1em;
     background-color: $color__masthead-background;
 
     .site-branding {
@@ -12,7 +12,7 @@
         }
 
         img {
-            max-width:100px;
+            max-width:200px;
         }
     }
 

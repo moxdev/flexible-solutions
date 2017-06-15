@@ -54,6 +54,176 @@
 		"oAP": "\/flexible-solutions.sublime-workspace",
 		"oF": 0
 		},
+	"\/fonts\/SourceSansPro-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Bold.eot",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Bold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Bold.otf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/SourceSansPro-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Light 2.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light 2.otf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Light 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/SourceSansPro-Light 2.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light 2.ttf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light.eot",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Light.eot 2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light.eot 2",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Light.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light.otf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/SourceSansPro-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Light.woff 2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Light.woff 2",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Regular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Regular.otf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/SourceSansPro-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Semibold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Semibold.eot",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Semibold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Semibold.otf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Semibold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Semibold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/SourceSansPro-Semibold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Semibold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-Semibold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-Semibold.woff",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -90,11 +260,43 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/imgs\/Asset 1.png": {
+		"ft": 32768,
+		"iS": 9507,
+		"oA": 0,
+		"oAP": "\/imgs\/Asset 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/imgs\/Asset 3.png": {
 		"ft": 32768,
 		"iS": 10268,
 		"oA": 0,
 		"oAP": "\/imgs\/Asset 3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/home-background-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/home-background-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/home-background.png": {
+		"ft": 32768,
+		"iS": 25860,
+		"oA": 0,
+		"oAP": "\/imgs\/home-background.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -161,6 +363,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/v1-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/v1-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/why.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/why.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/inc\/about-page-staff.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/about-page-staff.php",
+		"oF": 0
+		},
 	"\/inc\/carousel.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -203,10 +431,22 @@
 		"oAP": "\/inc\/jetpack.php",
 		"oF": 0
 		},
+	"\/inc\/materials-disclaimer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/materials-disclaimer.php",
+		"oF": 0
+		},
 	"\/inc\/photo-gallery.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/photo-gallery.php",
+		"oF": 0
+		},
+	"\/inc\/styles-section.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/styles-section.php",
 		"oF": 0
 		},
 	"\/inc\/template-tags.php": {

@@ -4,9 +4,10 @@ $color__brand-3:#323232;
 
 $color__background-body: $color__brand-3;
 
-// front-page - #7f7f7f
-
 $color__text-main: $color__brand-3;
+
+$color__background-lt-gray: #7f7f7f;
+
 
 /*
  * MASTHEAD STYLES
@@ -18,8 +19,8 @@ $color__masthead-background: #fff;
  * CAROUSEL STYLES
  */
 
-$color__carousel-nav:$color__brand-1;
-$color__carousel-nav-active:#e8e8e8;
+$color__carousel-nav:#e8e8e8;
+$color__carousel-nav-active:$color__brand-1;
 
 
 

@@ -1,6 +1,9 @@
 #home-carousel.carousel-type-1 {
-    min-height:300px;
+    min-height:200px;
     position:relative;
+    font-family: $font__bold;
+    letter-spacing: 1px;
+    @include font-smooth;
 }
 
 #home-carousel.carousel-type-2 {
@@ -52,11 +55,11 @@
 #home-carousel.carousel-type-1 span {
     position:absolute;
     z-index:10;
-    font-size:1.7em;
+    font-size:2em;
     line-height:1.1;
     color:#FFF;
     text-shadow:2px 2px 4px rgba(0, 0, 0, 1);
-    top:3em;
+    top:1.5em;
     left:1em;
     right:1em;
     font-weight:700;
@@ -107,8 +110,8 @@ ol.carousel-nav li a {
     display:block;
     overflow:hidden;
     text-indent:-9999em;
-    width:25px;
-    height:25px;
+    width:15px;
+    height:15px;
 }
 
 ol.carousel-nav li.active a {
