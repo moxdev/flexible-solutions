@@ -231,6 +231,16 @@ require get_template_directory() . '/inc/photo-gallery.php';
 require get_template_directory() . '/inc/contact-page-sidebar.php';
 
 /**
+ * Load materials section disclaimer on products page.
+ */
+require get_template_directory() . '/inc/materials-disclaimer.php';
+
+/**
+ * Load employee section on About page.
+ */
+require get_template_directory() . '/inc/about-page-staff.php';
+
+/**
  * Load the MM4 contact form plugin.
  */
 include_once( get_stylesheet_directory() . '/plugins/mm4-you-contact-form/mm4-you-cf.php' );

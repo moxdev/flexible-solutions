@@ -35,11 +35,16 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
 
-	<?php if( function_exists('mm4_you_materials_section') ) {
-		mm4_you_materials_section();
-	} ?>
+		<?php if( function_exists('mm4_you_materials_disclaimer') ) {
+			mm4_you_materials_disclaimer();
+		} ?>
+
+		<?php if( function_exists('mm4_you_about_page_staff_section') ) {
+			mm4_you_about_page_staff_section();
+		} ?>
+
+	</div><!-- .entry-content -->
 
 	<?php if( function_exists('mm4_you_styles_section') ) {
 		mm4_you_styles_section();
