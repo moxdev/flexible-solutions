@@ -36,21 +36,24 @@ function mm4_you_highlight_boxes() {
                                     echo ' style="background-image:url("';
                                 }
 
-                            echo '>';
+                            echo '>'; ?>
 
-                                if($title): ?>
-                                    <span class="highlight-title"><?php echo $title; ?></span>
-                                <?php endif; echo "\n";
+                                <div class="highlight-content-wrapper">
 
-                                if($desc): ?>
-                                    <span class="highlight-desc"><?php echo $desc; ?></span>
-                                <?php endif; echo "\n";
+                                    <?php if($title): ?>
+                                        <span class="highlight-title"><?php echo $title; ?></span>
+                                    <?php endif;
 
-                                if($url): ?>
-                                    <span class="highlight-url"><a href="<?php echo $url; ?>"><?php if($linkTxt): echo $linkTxt . ' &raquo;'; else: ?>Learn More &raquo;<?php endif; ?></a></span>
-                                <?php endif; echo "\n"; ?>
+                                    if($desc): ?>
+                                        <span class="highlight-desc"><?php echo $desc; ?></span>
+                                    <?php endif;
 
-                            </div>
+                                    if($url): ?>
+                                        <span class="highlight-url"><a href="<?php echo $url; ?>"><?php echo esc_html( $linkTxt ); ?></a></span>
+                                    <?php endif; ?>
+
+                                </div><!-- highlight-content-wrapper -->
+                            </div><!-- home-highlight -->
                         <?php endwhile; ?>
                     </div>
                 </div>

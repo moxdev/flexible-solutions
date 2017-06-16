@@ -1,11 +1,18 @@
 #home-highlight-inner-wrapper {
     @include container;
+    // @include section-padding;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .5em;
+    padding-right: .5em;
+    min-height: 500px;
     background-image: url(http://localhost:8888/flexible-solutions/wp-content/themes/mm4-you/imgs/mobile-background.svg);
-    background-position: center center;
-    background-size: 120%;
+    background-position: 20% center;
+    background-origin: content-box;
+    background-size: 180%;
     background-repeat: no-repeat;
     position: relative;
-    z-index: -1;
+    z-index: 20000;
 
     &:before {
         content: '';
@@ -15,35 +22,58 @@
         right: 0;
         bottom: 0;
         left: 0;
-        opacity: .55;
-        z-index: 10;
+        opacity: .6;
+        z-index: -1;
     }
 
     .home-highlight {
-        position: relative;
-        z-index: 30;
-        @include margin-auto;
+        padding: 1em;
+        margin: 2em auto;
         background-repeat: no-repeat;
+        color: #fff;
+        text-align:center;
+        // border-left:1px solid #FFF;
+        // border-right:1px solid #FFF;
+        // border-top: 1px solid #fff;
+
+        // display: block;
+        // flex-direction: column;
+        // flex-wrap: wrap;
+        // justify-content: center;
+        // align-content: center;
+        // @include margin-auto;
+        // position: relative;
+        // z-index: 30000;
         // width: 300px;
         // height: 300px;
         // padding:2em;
         // background-color:#808080;
-        color: #fff;
-        text-align:center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        // border-bottom:1px solid #FFF;
 
+        .highlight-content-wrapper {
+            padding: 1em;
+            position: relative;
 
-        a {
-            color: #fff;
+            &:after,
+            &:before {
+                border: .5em solid #fff;
+                bottom: 0;
+                content: '';
+                position: absolute;
+                top: 0;
+                width: 10%;
+            }
+            &:after {
+                border-left: none;
+                right: 0;
+            }
+            &:before {
+                border-right: none;
+                left: 0;
+            }
         }
 
         span {
-            flex: 1 1 100%;
-            width: 100%;  // IE 10
+            display: block;
             font-size:1.1em;
             line-height:1.1;
         }
@@ -66,8 +96,8 @@
             margin:1em 0 0 0;
 
             a {
+                color: #fff;
                 text-decoration:none;
-                text-transform:uppercase;
             }
         }
     }
@@ -87,6 +117,7 @@
 
             span {
                 font-size:.9em;
+                width: 100%; // IE10
             }
 
             .highlight-title {
