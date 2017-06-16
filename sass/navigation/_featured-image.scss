@@ -1,6 +1,6 @@
 .featured-image-header {
   width: 100%;
-  min-height:200px;
+  min-height:150px;
   position:relative;
   background-size: cover;
   background-position: top center;
@@ -15,7 +15,7 @@
       right: 0;
       bottom: 0;
       left: 0;
-      opacity: .4;
+      opacity: .2;
       z-index: 5;
   }
 }
@@ -28,7 +28,7 @@
   line-height:1.1;
   color:#FFF;
   text-shadow:2px 2px 4px rgba(0, 0, 0, 1);
-  top:3em;
+  top:2.5em;
   left:1em;
   right:1em;
   font-weight:700;

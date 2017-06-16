@@ -4,9 +4,17 @@ ol {
     padding:0;
 }
 
+.entry-content ul,
+.entry-content ol {
+    margin:0;
+    padding-left: 1.1em;
+
+}
+
 .entry-content ul li,
 .entry-content ol li {
-    margin-bottom:.5em;
+  // padding-left: 1em;
+  margin-bottom:.75em;
 }
 
 ul {

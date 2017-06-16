@@ -1,0 +1,11 @@
+#secondary {
+    display: none;
+}
+
+
+
+@include respond-to(medium) {
+  #secondary {
+      display: block;
+  }
+}
