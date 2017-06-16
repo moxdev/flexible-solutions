@@ -60,12 +60,19 @@
 					$ph2   = get_theme_mod('setting_phone_2');
 
 					if( $name ): ?><span class="company-name"><?php echo esc_html( $name ); ?></span><?php endif; echo "<br>";
-					if($ph): ?><span id="ph-1"><a class="tel" href="tel:<?php echo $ph; ?>"><?php echo $ph; ?></a></span><?php endif; echo "&#8226;";
-					if($ph2): ?><span id="ph-2"><a class="tel" href="tel:<?php echo $ph2; ?>"><?php echo $ph2; ?></a></span><?php endif; echo "&#8226;";
+
+					if($ph): ?><span id="ph-1"><a class="tel" href="tel:<?php echo $ph; ?>"><?php echo $ph; ?></a></span><span class="bullet"><?php echo "&#8226;"; ?></span><?php endif;
+
+					if($ph2): ?><span id="ph-2"><a class="tel" href="tel:<?php echo $ph2; ?>"><?php echo $ph2; ?></a></span><span class="bullet"><?php echo "&#8226;"; ?></span><?php endif;
+
 					if($email): ?><span class="ftr-contact"><?php echo $email; ?></span><?php endif; echo "<br>";
+
 					if($add): ?><span class="ftr-contact ftr-address"><?php echo $add; if($add2): echo ', ' . $add2; endif; ?></span><?php endif; if($city || $state || $zip): ?><span class="comma"></span><?php endif;
+
 					if($city): ?><span class="ftr-contact"><?php echo $city; ?></span><?php echo ', ' ; endif;
+
 					if($state): ?><span class="ftr-contact"><?php echo $state; ?></span><?php echo ' '; endif;
+
 					if($zip): ?><span class="ftr-contact"><?php echo $zip; ?></span><?php endif; echo "\n";
 
 					?>

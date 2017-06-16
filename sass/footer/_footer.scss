@@ -1,21 +1,38 @@
 #colophon {
     background-color:$color__footer-background;
     padding-top:1em;
-    padding-bottom:1em;
+    padding-bottom:3em;
+    text-align: center;
+    letter-spacing: .8px;
+    font-family: $font__reg;
+
+    .site-info {
+        font-size:.85em;
+
+        span.bullet {
+            display: none;
+        }
+
+        #ph-1, #ph-2 {
+            display: block;
+        }
+
+        .company-name {
+            color: $color__brand-2;
+            font-family: $font__bold;
+            font-size: 1.2em;
+        }
+
+        a.tel {
+            font-size:1.2em;
+        }
+    }
 }
 
 #colophon, #colophon a {
     color:$color__footer-color;
 }
 
-#colophon .site-info {
-    font-size:.85em;
-}
-
-#colophon .site-info a.tel {
-    font-weight:700;
-    font-size:1.2em;
-}
 
 @media screen and (min-width:575px) {
     #colophon .site-info {
