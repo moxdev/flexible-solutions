@@ -40,6 +40,12 @@ article.post {
     font-style:italic;
 }
 
+.entry-content .disclaimer {
+    font-family: $font__italic;
+    font-size: .8em;
+    line-height: 1.2;
+}
+
 .entry-meta, .entry-footer {
     font-size:.8em;
 }

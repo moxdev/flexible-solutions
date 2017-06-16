@@ -30,10 +30,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'SourceSansPro-LightIt';
+  src: url('SourceSansPro-LightIt.eot?#iefix') format('embedded-opentype'),  url('SourceSansPro-LightIt.otf')  format('opentype'),
+       url('SourceSansPro-LightIt.woff') format('woff'), url('SourceSansPro-LightIt.ttf')  format('truetype'), url('SourceSansPro-LightIt.svg#SourceSansPro-LightIt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 $font__light: 'SourceSansPro-Light', sans-serif;
 $font__reg: 'SourceSansPro-Regular', sans-serif;
 $font__semi: 'SourceSansPro-Semibold', sans-serif;
 $font__bold: 'SourceSansPro-Bold', sans-serif;
+$font__italic: 'SourceSansPro-LightIt', sans-serif;
 
 $font__main: $font__light;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;

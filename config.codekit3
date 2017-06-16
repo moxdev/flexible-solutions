@@ -156,6 +156,40 @@
 		"oAP": "\/fonts\/SourceSansPro-Light.woff 2",
 		"oF": 0
 		},
+	"\/fonts\/SourceSansPro-LightIt.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-LightIt.eot",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-LightIt.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-LightIt.otf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-LightIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-LightIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/SourceSansPro-LightIt.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-LightIt.ttf",
+		"oF": 0
+		},
+	"\/fonts\/SourceSansPro-LightIt.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/SourceSansPro-LightIt.woff",
+		"oF": 0
+		},
 	"\/fonts\/SourceSansPro-Regular.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -1869,6 +1903,12 @@
 		"oAP": "\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_page-templates.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_styles-section.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_styles-section.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/07a4cac9d6b0c85a57c49ed3fa08cdce01dc0b0f\/_mixins-master.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -2898,6 +2938,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/page-templates\/_page-templates.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/_styles-section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/_styles-section.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
