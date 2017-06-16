@@ -8,10 +8,16 @@
     bottom:0;
     overflow-y:scroll;
     -webkit-overflow-scrolling: touch;
-    background-color:#EDEDED;
+    background-color:$color__brand-2;
+    @include font-smooth;
+    letter-spacing: .2px;
 
     #mobile-main-nav {
         padding-top: 3em;
+
+        .sub-menu {
+            @include reset;
+        }
     }
 
     ul {
@@ -20,27 +26,27 @@
         opacity:0;
 
         li {
-            margin-left: 25%;
+            margin-left: 10%;
 
             a {
-                font-weight:700;
+                font-family: $font__bold;
+                color: #fff;
                 text-decoration:none;
-                font-size:1.1em;
-                line-height:1.5;
+                font-size:1.3em;
+                line-height:1.6;
                 display:block;
-                border: 1px soild red;
             }
         }
 
         ul {
-            margin:0 0 0 1em;
+            // margin:0 0 0 1em;
             padding:0;
 
             li {
 
                 a {
-                    font-weight:400;
-                    font-size:.9em;
+                    font-family: $font__semi;
+                    font-size:1em;
                 }
             }
         }
