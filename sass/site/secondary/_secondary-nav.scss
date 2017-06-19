@@ -1,5 +1,25 @@
 #secondary {
     display: none;
+
+    .subnav-wrapper {
+
+      nav {
+        margin-top: 10px;
+        ul {
+          border-top: 1px solid #7f7f7f;
+          width: 275px;
+          li {
+            border-bottom: 1px solid #7f7f7f;
+            padding: .5em .5em .5em 1em;
+
+            a {
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
 }
 
 

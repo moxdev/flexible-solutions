@@ -102,16 +102,6 @@
         padding-bottom:0;
     }
 
-    // .page-template-frontpage-b.has-carousel #masthead .site-branding,
-    // .page-template-page-subnav #masthead .site-branding,
-    // .page-template-page-single-column #masthead .site-branding {
-    //     float:none;
-    //     position:absolute;
-    //     z-index:500;
-    //     left:50%;
-    //     margin-left:-100px;
-    // }
-
     .page-template-frontpage-c.has-carousel #masthead {
         position:relative;
         z-index:500;
@@ -122,6 +112,6 @@
     .page-template-frontpage-b.has-carousel #masthead .site-branding,
     .page-template-page-subnav #masthead .site-branding,
     .page-template-page-single-column #masthead .site-branding {
-        margin-left:-125px;
+        // margin-left:-125px;
     }
 }

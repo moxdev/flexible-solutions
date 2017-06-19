@@ -148,13 +148,26 @@ ol.carousel-nav li.active a:hover {
     }
 
     .page-template-frontpage-b #home-carousel.carousel-type-1 span {
-        top:2.25em;
+        top:2.5em;
     }
 }
 
 @media screen and (min-width:975px) {
     #home-carousel.carousel-type-1, #home-carousel.carousel-type-2 {
-        min-height:450px;
+        min-height:500px;
+    }
+
+    ol.carousel-nav li a {
+        width:25px;
+        height:25px;
+    }
+
+    .page-template-frontpage-b #home-carousel.carousel-type-1 span {
+        top:3.5em;
+    }
+
+    #home-carousel.carousel-type-1 ol {
+        bottom:4em;
     }
 
     #home-carousel.carousel-type-1 span {
@@ -176,7 +189,15 @@ ol.carousel-nav li.active a:hover {
 
 @media screen and (min-width:1200px) {
     #home-carousel.carousel-type-1 {
-        min-height:525px;
+        min-height:600px;
+    }
+
+    .page-template-frontpage-b #home-carousel.carousel-type-1 span {
+        top:4em;
+    }
+
+    #home-carousel.carousel-type-1 ol {
+        bottom:5em;
     }
 
     #home-carousel.carousel-type-1 span {

@@ -5,6 +5,7 @@
     text-align: center;
     letter-spacing: .8px;
     font-family: $font__reg;
+    border-top: 5px solid $color__brand-1;
 
     .site-info {
         font-size:.85em;
@@ -26,6 +27,27 @@
         a.tel {
             font-size:1.2em;
         }
+
+        @media screen and (min-width:750px) {
+
+            span {
+                padding: 0 5px;
+                font-size: 1.2em;
+            }
+
+            span.bullet {
+                display: inline-block;
+            }
+
+            #ph-1, #ph-2 {
+                display: inline-block;
+                font-size:1em;
+            }
+
+            .company-name {
+                font-size: 1.5em;
+            }
+        }
     }
 }
 
@@ -44,16 +66,16 @@
     }
 }
 
-@media screen and (min-width:975px) {
-    #colophon .site-info {
-        float:left;
-        /*width:40%;*/
-    }
+// @media screen and (min-width:975px) {
+//     #colophon .site-info {
+//         float:left;
+//         /*width:40%;*/
+//     }
 
-    .page-template-frontpage-c.has-carousel #colophon {
-        position:fixed;
-        bottom:0;
-        left:0;
-        right:0;
-    }
-}
+//     .page-template-frontpage-c.has-carousel #colophon {
+//         position:fixed;
+//         bottom:0;
+//         left:0;
+//         right:0;
+//     }
+// }
