@@ -66,14 +66,62 @@
         background-color:$color__brand-2;
         text-align:center;
 
+        .icon-checkmark {
+            &:before {
+                background-position: 0 7px;
+            }
+        }
+
+        .icon-arrows {
+            &:before {
+                background-position: 0 -36px;
+            }
+        }
+
+        .icon-head {
+            &:before {
+                background-position: 0 -81px;
+            }
+        }
+
+        .icon-phone {
+            &:before {
+                background-position: 0 -126px;
+            }
+        }
+
         ul {
             display:inline-block;
 
             li {
+                position: relative;
+                display: block;
+                padding-left: 30px;
+                border-right: 1px solid #fff;
+                margin: 0 1em;
+
+                &:last-child {
+                    border-right: none;
+                }
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    width: 40px;
+                    height: 40px;
+                    background-image: url(http://localhost:8888/flexible-solutions/wp-content/themes/mm4-you/imgs/sprite-icons-main-nav.svg);
+                    background-repeat: no-repeat;
+                }
 
                 a {
                     padding:.35em .85em;
                     color:#FFF;
+                    font-size: 1.2em;
+                    margin-right: 1em;
                 }
             }
 
@@ -83,6 +131,10 @@
 
                 li {
                     margin:0;
+
+                    &:before {
+                        display: none;
+                    }
 
                     &:first-child {
                         margin:0;
@@ -102,22 +154,6 @@
             }
         }
     }
-}
-
-.icon-checkmark {
-
-}
-
-.icon-arrows {
-
-}
-
-.icon-head {
-
-}
-
-.icon-phone {
-
 }
 
 .main-navigation ul li:hover > ul,

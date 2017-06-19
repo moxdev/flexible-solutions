@@ -27,7 +27,8 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="wrapper">
 			<div class="site-branding">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri() . '/imgs/logo.svg'?>" class="brand"></a>
+				<?php $phone = get_theme_mod('setting_phone'); ?>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri() . '/imgs/logo.svg'?>" class="brand"></a><span class="site-branding-phone"><a href="tel:<?php echo esc_html( $phone ); ?>"><?php echo esc_html( $phone ); ?></a></span>
 			</div><!-- .site-branding -->
 
 			<?php $ph = get_theme_mod('setting_phone');

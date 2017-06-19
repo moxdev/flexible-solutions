@@ -388,16 +388,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/imgs\/old-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/old-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/imgs\/sprite-gallery-icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -428,11 +418,63 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/imgs\/v1-logo.svg": {
+	"\/imgs\/versions\/old-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/imgs\/v1-logo.svg",
+		"oAP": "\/imgs\/versions\/old-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/versions\/sprite-icons-main-nav-15.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/versions\/sprite-icons-main-nav-15.ai",
+		"oF": 0
+		},
+	"\/imgs\/versions\/sprite-icons-main-nav-15.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/versions\/sprite-icons-main-nav-15.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/versions\/sprite-icons-main-nav-40.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/versions\/sprite-icons-main-nav-40.ai",
+		"oF": 0
+		},
+	"\/imgs\/versions\/sprite-icons-main-nav-40.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/versions\/sprite-icons-main-nav-40.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/versions\/sprite-icons-main-nav.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/versions\/sprite-icons-main-nav.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/versions\/v1-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/versions\/v1-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

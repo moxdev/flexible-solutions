@@ -135,12 +135,16 @@ ol.carousel-nav li.active a:hover {
 
 @media screen and (min-width:725px) {
     #home-carousel.carousel-type-1, #home-carousel.carousel-type-2 {
-        min-height:375px;
+        min-height:300px;
     }
 
     #home-carousel.carousel-type-1 span {
         font-size:2.8em;
         top:1.7em;
+    }
+
+    #home-carousel.carousel-type-1 ol {
+        bottom:2.5em;
     }
 
     .page-template-frontpage-b #home-carousel.carousel-type-1 span {
