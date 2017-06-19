@@ -20,6 +20,9 @@ function mm4_you_highlight_boxes() {
 
                 <div id="home-highlight-wrapper" class="highlight-<?php echo $rowCount; ?>">
                     <div id="home-highlight-inner-wrapper">
+                        <div class="highlight-container">
+
+                        </div>
 
                         <?php while( have_rows('highlights') ): the_row();
 
@@ -55,6 +58,7 @@ function mm4_you_highlight_boxes() {
                                 </div><!-- highlight-content-wrapper -->
                             </div><!-- home-highlight -->
                         <?php endwhile; ?>
+
                     </div>
                 </div>
             <?php endif;

@@ -12,9 +12,6 @@
 ?>
 
 		</div><!-- .wrapper -->
-		<?php if( function_exists('mm4_you_highlight_boxes') ) {
-			mm4_you_highlight_boxes();
-		} ?>
 
 		<?php if( is_page_template('frontpage-a.php') || is_page_template('frontpage-b.php') ) {
 			if( function_exists('mm4_you_add_quick_contact_form') ) {
@@ -22,6 +19,10 @@
 			}
 		} ?>
 	</div><!-- #content -->
+
+	<?php if( function_exists('mm4_you_highlight_boxes') ) {
+		mm4_you_highlight_boxes();
+	} ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="wrapper">
