@@ -1909,6 +1909,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_about-page.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_about-page.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_carousel.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -2902,6 +2908,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/navigation\/_social-menu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/_about-page.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/_about-page.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -38,17 +38,11 @@ nav ul, ul.social-media, #mobile-menu ul {
 }
 
 
-// @media screen and (min-width:575px) {
-//     .menu-toggle {
-//         width:40px;
-//         height:40px;
-//         background-position:0 -535px;
-//     }
-
-//     .menu-toggle:hover {
-//         background-position:0 -573px;
-//     }
-// }
+@media screen and (min-width:575px) {
+    .menu-toggle {
+        margin-top: .25em;
+    }
+}
 
 @media screen and (min-width:975px) {
     .menu-toggle {

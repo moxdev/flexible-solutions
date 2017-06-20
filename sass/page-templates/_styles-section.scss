@@ -1,19 +1,23 @@
 .styles-section {
+  @include section-padding;
 
   .styles-wrapper {
 
   }
 
+  // Rubber / Rectangular Metal
   .styles-image-repeater-wrapper {
 
     .product-wrapper {
+      max-width: 500px;
+      margin: 1em auto;
 
       .product-inner-wrapper {
-        margin: 1em 0;
+        padding: .5em;
 
         .title {
           background-color:$color__background-lt-gray;
-          padding: .25em 1em;
+          padding: .25em 0;
           @include font-smooth;
         }
 
@@ -22,24 +26,49 @@
           font-family: $font__bold;
           text-align: center;
           color: #fff;
-          font-size: 1em;
+          font-size: 1.1em;
           line-height: 1.2;
         }
       }
     }
+
+    @include respond-to(x-small) {
+      .product-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        max-width: none;
+      }
+
+      .product-inner-wrapper {
+        flex: 0 1 calc(100% / 2);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .title,
+        .image-wrapper img {
+          flex: 1 0 auto;
+        }
+      }
+    }
+
+    @include respond-to(small) {
+      .product-inner-wrapper {
+        flex: 0 1 calc(100% / 3);
+      }
+    }
   }
 
+  // Flex Connector
   .styles-image-description-repeater-wrapper {
 
     .product-wrapper {
+      max-width: 500px;
+      margin: 1em auto;
 
       .product-inner-wrapper {
-        margin: 1em 0;
-
-        .title {
-          padding: .25em 1em;
-          @include font-smooth;
-        }
+        padding: .5em;
 
         span {
           display: block;
@@ -48,6 +77,65 @@
           color: #000;
           font-size: 1em;
           line-height: 1.2;
+        }
+
+        .title {
+          padding: .25em 1em;
+          @include font-smooth;
+        }
+      }
+    }
+
+    @include respond-to(x-small) {
+      .product-wrapper {
+        max-width: 300px;
+      }
+    }
+
+    @include respond-to(medium) {
+      .product-wrapper {
+        margin: 0;
+
+        .product-inner-wrapper {
+          padding: 0;
+          margin: 2em 0;
+
+          .title {
+            padding: .25em 0;
+          }
+
+          .description ul {
+            margin: 0;
+            padding-left: 1.1em;
+          }
+        }
+      }
+    }
+  }
+
+  // Fabric Expansion
+  .styles-image-section-repeater-wrapper {
+
+    .product-section-wrapper {
+
+      .product-section-inner-wrapper {
+        margin: 2em auto;
+        text-align: center;
+      }
+    }
+
+    @include respond-to(x-small) {
+      .product-section-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: none;
+
+        .product-section-inner-wrapper {
+          flex: 1 0 calc(100% / 2);
+          margin:0;
+          padding: 1em;
+          text-align: center;
         }
       }
     }

@@ -1,0 +1,30 @@
+.page-template-page-single-column {
+
+  #content {
+    max-width:$width_max-content-width-small;
+    @include margin-auto;
+  }
+
+
+  .staff-section {
+    @include section-padding;
+
+    h2 {
+      // margin-bottom: .5em;
+    }
+
+    .employee-inner-wrapper {
+      padding: 1em 0;
+    }
+
+    @media screen and (min-width:725px) {
+      .employee-inner-wrapper {
+        img {
+          margin:0 1em 1em 0;
+        }
+      }
+    }
+  }
+
+}
+
