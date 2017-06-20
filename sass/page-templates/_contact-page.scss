@@ -1,3 +1,66 @@
-.page-template-page-contact  #content {
-    background-color:#bfbfbf;
+.page-template-page-contact {
+  #content {
+    background-color:$color__brand-2;
+    color: #fff;
+  }
+
+  h1.entry-title {
+    color: #fff;
+    margin-bottom: .5em;
+  }
+
+  #masthead {
+    border-bottom: 3px solid red;
+
+    .aux-navigation {
+      display: none;
+    }
+  }
+
+  aside {
+    font-size: 1em;
+
+    h2 {
+      font-family: $font__semi;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+
+  #address-phone {
+    font-size: 1em;
+    margin-top: .5em;
+  }
+
+  @include respond-to(medium) {
+
+    #masthead {
+      padding-top: 1em;
+
+      .site-branding {
+        float: left;
+        width: auto;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        padding: 0;
+      }
+
+      .aux-navigation {
+        display: block;
+
+      }
+    }
+
+    .main-navigation {
+      display: none;
+    }
+
+    h1.entry-title {
+      font-size: 2em;
+    }
+  }
 }
+

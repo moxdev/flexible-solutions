@@ -3,6 +3,10 @@
 
     .subnav-wrapper {
 
+      .current_page_item a {
+          color: $color__brand-1;
+      }
+
       nav {
         margin-top: 10px;
         ul {
