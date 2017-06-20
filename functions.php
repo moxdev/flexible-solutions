@@ -48,7 +48,7 @@ function mm4_you_setup() {
 	add_image_size('gallery-thumb', 300, 200, true);
 	add_image_size('home-highlight-image', 300, 300, true);
 	add_image_size('featured-image', 1400, 360, true);
-	add_image_size('styles-image-square', 500, 500, true);
+	add_image_size('styles-image-square', 300, 9999, false);
 	add_image_size('styles-image-tall', 500, 9999, false);
 	add_image_size('styles-image-custom', 500, 9999, false);
 
