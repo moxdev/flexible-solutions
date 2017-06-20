@@ -28,11 +28,11 @@ $color__carousel-nav-active:$color__brand-1;
  * BUTTON STYLES
  */
 
-$color__button-background: #e6e6e6;
-$color__button-color: #000;
-$color__button-border: #000;
-$color__button-hover: red;
-$color__button-focus: red;
+$color__button-background: $color__brand-2;
+$color__button-color: #fff;
+$color__button-border: #fff;
+$color__button-hover: #fff;
+// $color__button-focus: $color__brand-2;
 
 /*
  * FORM STYLES

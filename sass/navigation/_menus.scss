@@ -18,23 +18,22 @@ nav ul, ul.social-media, #mobile-menu ul {
     @include reset;
     overflow:hidden;
     background-color:transparent;
-    padding: .25em;
+    padding: .25em .5em;
     color: $color__brand-2;
     font-size: 1.4rem;
 }
 
 .menu-toggle,
-.menu-toggle:hover,
 .menu-toggle:active {
     box-shadow:none;
-    border:none;
+    border:1px solid #fff;
     background: transparent;
 }
 
 .menu-toggle:hover {
-    border: 1px solid $color__brand-2;
-    color: $color__brand-3;
-    transition: border 2s ease-in-out;
+    background-color: $color__brand-2;
+    color: #fff;
+    transition: background 1s ease-in-out;
     transition: color 1s ease-in-out;
 }
 
