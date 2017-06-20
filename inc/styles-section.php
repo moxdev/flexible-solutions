@@ -163,8 +163,84 @@ function mm4_you_styles_section() {
 
                   <?php endif; ?>
 
-
                   </div><!-- styles-image-description-repeater-wrapper  -->
+                <?php elseif( get_row_layout() == 'styles_image_description_flex' ):
+
+                  $header  = get_sub_field('section_header');
+                  $editor  = get_sub_field('text_editor');
+                  $product = get_sub_field('product'); ?>
+
+                  <div class="styles-image-description-flex-wrapper">
+
+                  <?php if ( $header ): ?>
+
+                    <h2 class="entry-sub-title"><?php echo esc_html( $header ); ?></h2>
+
+                  <?php endif; ?>
+
+                  <?php if ( $editor ):
+
+                    echo $editor;
+
+                  endif; ?>
+
+                  <?php if ( $product ): ?>
+
+                    <?php if( have_rows('product') ): ?>
+
+                        <div class="product-wrapper">
+
+                        <?php while( have_rows('product') ): the_row();
+
+                            $img   = get_sub_field('image');
+                            $title = get_sub_field('title');
+                            $sub   = get_sub_field('sub_title');
+                            $desc   = get_sub_field('description');
+
+                            ?>
+
+                            <div class="product-inner-wrapper">
+
+                              <?php if( $img ): ?>
+
+                                <div class="image-wrapper">
+                                  <img src="<?php echo $img['sizes']['styles-image-custom']; ?>" alt="<?php echo $img['alt']; ?>" description="<?php echo $img['description']; ?>">
+                                </div>
+
+                              <?php endif; ?>
+
+                              <?php if( $title ): ?>
+
+                                <div class="title">
+                                  <span><?php echo esc_html( $title ); ?></span>
+
+                                  <?php if ($sub): ?>
+                                    <span><?php echo esc_html( $sub ); ?></span>
+                                  <?php endif ?>
+
+                                </div><!-- title -->
+
+                              <?php endif; ?>
+
+                              <?php if ( $desc ): ?>
+
+                                <div class="description">
+                                  <?php echo $desc; ?>
+                                </div>
+
+                              <?php endif ?>
+
+                            </div><!-- product-inner-wrapper -->
+
+                        <?php endwhile; ?>
+
+                        </div><!-- product-wrapper -->
+
+                    <?php endif; ?>
+
+                  <?php endif; ?>
+
+                  </div><!-- styles-image-description-flex-wrapper  -->
 
                 <?php elseif( get_row_layout() == 'styles_image_section_repeater' ):
 

@@ -57,7 +57,7 @@
     }
   }
 
-  // Flex Connector
+  // Round Metal Expansion
   .styles-image-description-repeater-wrapper {
 
     .product-wrapper {
@@ -106,6 +106,47 @@
             padding-left: 1.1em;
           }
         }
+      }
+    }
+  }
+
+  // Flex Connector
+  .styles-image-description-flex-wrapper {
+
+    .product-wrapper {
+      max-width: 400px;
+      margin: 1em auto;
+
+      .product-inner-wrapper {
+        padding: .5em;
+
+        span {
+          display: block;
+          font-family: $font__bold;
+          text-align: left;
+          color: #000;
+          font-size: 1em;
+          line-height: 1.2;
+        }
+
+        .title {
+          padding: .25em 1em;
+          @include font-smooth;
+        }
+      }
+    }
+
+    @include respond-to(x-small) {
+      .product-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        max-width: none;
+      }
+
+      .product-inner-wrapper {
+        flex: 0 1 calc(100% / 2);
+        width: 100%;
       }
     }
   }
