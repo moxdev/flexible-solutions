@@ -5,25 +5,24 @@
     padding-right: 1em;
     min-height: 500px;
     background-color: #828282;
+    opacity: .98;
     // background-image: url(/wp-content/themes/mm4-you/imgs/mobile-background.svg);
-    background-image: url(http://localhost:3000/flexible-solutions/wp-content/themes/mm4-you/imgs/mobile-background.svg);
-    background-position: 20% center;
-    background-origin: content-box;
-    background-size: 180%;
-    background-repeat: no-repeat;
     position: relative;
     z-index: 20000;
 
     &:before {
         content: '';
-        // background-color: rgba(128, 128, 128, 0.9);
-        background-color: #828282;
+        background-image: url(http://localhost:3000/flexible-solutions/wp-content/themes/mm4-you/imgs/bg-test.png);
+        background-position: 20% center;
+        background-origin: content-box;
+        background-size: 180%;
+        background-repeat: no-repeat;
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        // opacitsy: .8;
+        opacity: .55;
         z-index: -1;
     }
 

@@ -316,6 +316,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/imgs\/bg-1700.png": {
+		"ft": 32768,
+		"iS": 28734,
+		"oA": 0,
+		"oAP": "\/imgs\/bg-1700.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/bg-test.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/bg-test.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/imgs\/home-background-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
