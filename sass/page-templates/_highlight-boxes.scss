@@ -4,7 +4,9 @@
     padding-left: 1em;
     padding-right: 1em;
     min-height: 500px;
-    background-image: url(http://localhost:8888/flexible-solutions/wp-content/themes/mm4-you/imgs/mobile-background.svg);
+    background-color: #828282;
+    // background-image: url(/wp-content/themes/mm4-you/imgs/mobile-background.svg);
+    background-image: url(http://localhost:3000/flexible-solutions/wp-content/themes/mm4-you/imgs/mobile-background.svg);
     background-position: 20% center;
     background-origin: content-box;
     background-size: 180%;
@@ -14,13 +16,14 @@
 
     &:before {
         content: '';
-        background-color: #7f7f7f;
+        // background-color: rgba(128, 128, 128, 0.9);
+        background-color: #828282;
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        opacity: .85;
+        // opacitsy: .8;
         z-index: -1;
     }
 
