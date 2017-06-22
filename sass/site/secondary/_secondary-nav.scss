@@ -19,6 +19,9 @@
             a {
               text-decoration: none;
               text-transform: uppercase;
+              &:hover {
+                color: $color__brand-1;
+              }
             }
           }
         }

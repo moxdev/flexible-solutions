@@ -294,54 +294,107 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
-	"\/imgs\/Asset 1.png": {
+	"\/imgs\/home-background-image.png": {
+		"ft": 32768,
+		"iS": 28734,
+		"oA": 0,
+		"oAP": "\/imgs\/home-background-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/home\/Asset 1.png": {
 		"ft": 32768,
 		"iS": 9507,
 		"oA": 0,
-		"oAP": "\/imgs\/Asset 1.png",
+		"oAP": "\/imgs\/home\/Asset 1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/imgs\/Asset 3.png": {
+	"\/imgs\/home\/Asset 3.png": {
 		"ft": 32768,
 		"iS": 10268,
 		"oA": 0,
-		"oAP": "\/imgs\/Asset 3.png",
+		"oAP": "\/imgs\/home\/Asset 3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/imgs\/home-background-2.svg": {
+	"\/imgs\/home\/bg-test.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/imgs\/home\/bg-test.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/home\/home-background-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/imgs\/home-background-2.svg",
+		"oAP": "\/imgs\/home\/home-background-2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/imgs\/home-background.png": {
+	"\/imgs\/home\/home-background.png": {
 		"ft": 32768,
 		"iS": 25860,
 		"oA": 0,
-		"oAP": "\/imgs\/home-background.png",
+		"oAP": "\/imgs\/home\/home-background.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/imgs\/home-background.svg": {
+	"\/imgs\/home\/home-background.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/imgs\/home-background.svg",
+		"oAP": "\/imgs\/home\/home-background.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/home\/mobile-background copy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/home\/mobile-background copy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/home\/mobile-background.png": {
+		"ft": 32768,
+		"iS": 6164,
+		"oA": 0,
+		"oAP": "\/imgs\/home\/mobile-background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/home\/mobile-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/home\/mobile-background.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -352,37 +405,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/imgs\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/imgs\/mobile-background copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/mobile-background copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/imgs\/mobile-background.png": {
-		"ft": 32768,
-		"iS": 6164,
-		"oA": 0,
-		"oAP": "\/imgs\/mobile-background.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/mobile-background.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/mobile-background.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -480,11 +502,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/imgs\/why.svg": {
+	"\/imgs\/versions\/why.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/imgs\/why.svg",
+		"oAP": "\/imgs\/versions\/why.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3016,6 +3038,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/page-templates\/_thank-you-page.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/_thank-you-page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/site\/_site.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3307,12 +3342,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content.php",
-		"oF": 0
-		},
-	"\/test-doc.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/test-doc.html",
 		"oF": 0
 		}
 	},

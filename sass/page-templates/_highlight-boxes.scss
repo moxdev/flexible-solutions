@@ -4,51 +4,65 @@
     padding-left: 1em;
     padding-right: 1em;
     min-height: 500px;
-    background-color: #828282;
-    // background-image: url(/wp-content/themes/mm4-you/imgs/mobile-background.svg);
-    background-image: url(http://localhost:3000/flexible-solutions/wp-content/themes/mm4-you/imgs/mobile-background.svg);
-    background-position: 20% center;
-    background-origin: content-box;
-    background-size: 180%;
-    background-repeat: no-repeat;
     position: relative;
     z-index: 20000;
+    background-color: #7f7f7f;
+    opacity: .98;
 
     &:before {
         content: '';
-        // background-color: rgba(128, 128, 128, 0.9);
-        background-color: #828282;
+        background-color: #7f7f7f;
         position: absolute;
+        width: 100%;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        // opacitsy: .8;
         z-index: -1;
+        background-image: url(/wp-content/themes/mm4-you/imgs/home-background-image.png);
+        background-position: 20% center;
+        background-origin: content-box;
+        background-size: 180%;
+        background-repeat: no-repeat;
+        opacity: .2;
+
+        @media screen and (min-width:750px) {
+            background-position: 43% 20%;
+            background-origin: content-box;
+            background-size: 160%;
+            background-repeat: no-repeat;
+        }
+
+        @media screen and (min-width:1000px) {
+            background-position: 43% 20%;
+            background-origin: content-box;
+            background-size: 130%;
+        }
+
+        @media screen and (min-width:1200px) {
+            background-position: 50% 18%;
+            background-origin: content-box;
+            background-size: 125%;
+        }
+
+        @media screen and (min-width:1600px) {
+            background-position: 50% 22%;
+            background-origin: contain;
+            background-size: 120%;
+        }
     }
 
     @media screen and (min-width:750px) {
         padding-top: 1.5em;
         padding-bottom: 1.5em;
         min-height: 100px;
-        background-position: 43% 20%;
-        background-origin: content-box;
-        background-size: 160%;
-        background-repeat: no-repeat;
     }
 
     @media screen and (min-width:1000px) {
         padding-top: 3em;
         padding-bottom: 3em;
-        background-position: 43% 20%;
-        background-origin: content-box;
-        background-size: 130%;
-    }
-
-    @media screen and (min-width:1200px) {
-        background-position: 43% 20%;
-        background-origin: contain;
-        background-size: 100%;
+        padding-left:0;
+        padding-right:0;
     }
 }
 
@@ -244,5 +258,3 @@
         border-right:1px solid #FFF;
     }
 }
-
-

@@ -130,7 +130,7 @@
                 }
             }
 
-            ul {
+            ul.sub-menu {
                 text-align:left;
                 margin-left:-60%;
                 margin-top: 10px;
@@ -140,6 +140,7 @@
                 li {
                     margin:0;
                     border: none;
+                    width: 100%;
 
                     &:before {
                         display: none;
@@ -147,6 +148,10 @@
 
                     &:first-child {
                         margin:0;
+                    }
+
+                    &:hover {
+                        background: lighten($color__brand-2, 10%);
                     }
 
                     a {
