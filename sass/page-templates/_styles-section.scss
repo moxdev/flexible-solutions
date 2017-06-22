@@ -1,10 +1,6 @@
 .styles-section {
   @include section-padding;
 
-  .styles-wrapper {
-
-  }
-
   // Rubber / Rectangular Metal
   .styles-image-repeater-wrapper {
 
@@ -45,14 +41,14 @@
       }
 
       .product-inner-wrapper {
-        flex: 0 1 calc(100% / 2);
-        width: 100%;
+        flex: 0 1 auto;
+        width: calc(100% / 2);
       }
     }
 
     @include respond-to(small) {
       .product-inner-wrapper {
-        flex: 0 1 calc(100% / 3);
+        width: calc(100% / 3);
       }
     }
   }
@@ -145,8 +141,8 @@
       }
 
       .product-inner-wrapper {
-        flex: 0 1 calc(100% / 2);
-        width: 100%;
+        flex: 0 1 auto;
+        width: calc(100% / 2);
       }
     }
   }
@@ -170,7 +166,8 @@
         max-width: none;
 
         .product-section-inner-wrapper {
-          flex: 1 0 calc(100% / 2);
+          flex: 1 0 auto;
+          width: calc(100% / 2);
           margin:0;
           padding: 1em;
           text-align: center;

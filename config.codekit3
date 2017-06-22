@@ -3146,13 +3146,13 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 1,
 		"uL": 0
 		},
 	"\/sass\/typography\/_copy.scss": {
