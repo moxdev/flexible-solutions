@@ -66,7 +66,7 @@
 
 					if($ph2): ?><span id="ph-2"><a class="tel" href="tel:<?php echo $ph2; ?>"><?php echo $ph2; ?></a></span><span class="bullet"><?php echo "&#8226;"; ?></span><?php endif;
 
-					if($email): ?><span class="ftr-contact"><?php echo $email; ?></span><?php endif; echo "<br>";
+					if($email): ?><span class="ftr-contact"><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></span><?php endif; echo "<br>";
 
 					if($add): ?><span class="ftr-contact ftr-address"><?php echo $add; if($add2): echo ', ' . $add2; endif; ?></span><?php endif; if($city || $state || $zip): ?><span class="comma"></span><?php endif;
 

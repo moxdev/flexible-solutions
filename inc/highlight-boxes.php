@@ -20,9 +20,6 @@ function mm4_you_highlight_boxes() {
 
                 <div id="home-highlight-wrapper" class="highlight-<?php echo $rowCount; ?>">
                     <div id="home-highlight-inner-wrapper">
-                        <div class="highlight-container">
-
-                        </div>
 
                         <?php while( have_rows('highlights') ): the_row();
 
@@ -43,6 +40,10 @@ function mm4_you_highlight_boxes() {
 
                                 <div class="highlight-content-wrapper">
 
+                                    <?php if( $url ): ?>
+                                        <a href="<?php echo $url; ?>">
+                                    <?php endif; ?>
+
                                     <?php if($title): ?>
                                         <span class="highlight-title"><?php echo $title; ?></span>
                                     <?php endif;
@@ -51,8 +52,12 @@ function mm4_you_highlight_boxes() {
                                         <span class="highlight-desc"><?php echo $desc; ?></span>
                                     <?php endif;
 
-                                    if($url): ?>
-                                        <span class="highlight-url"><a href="<?php echo $url; ?>"><?php echo esc_html( $linkTxt ); ?></a></span>
+                                    if($linkTxt): ?>
+                                        <span class="highlight-url"><?php echo esc_html( $linkTxt ); ?></span>
+                                    <?php endif; ?>
+
+                                    <?php if( $url ): ?>
+                                        </a>
                                     <?php endif; ?>
 
                                 </div><!-- highlight-content-wrapper -->

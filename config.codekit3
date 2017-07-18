@@ -7,7 +7,7 @@
 		"uuidString": "8E175869-883D-47CD-BDA0-6D8316476BEE"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/404.php": {
 		"ft": 8192,
@@ -294,6 +294,38 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/imgs\/Asset 1.png": {
+		"ft": 32768,
+		"iS": 9507,
+		"oA": 0,
+		"oAP": "\/imgs\/Asset 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/Asset 3.png": {
+		"ft": 32768,
+		"iS": 10268,
+		"oA": 0,
+		"oAP": "\/imgs\/Asset 3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/home-background-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/home-background-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/home-background-image.png": {
 		"ft": 32768,
 		"iS": 28734,
@@ -304,6 +336,27 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/imgs\/home-background.png": {
+		"ft": 32768,
+		"iS": 25860,
+		"oA": 0,
+		"oAP": "\/imgs\/home-background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/home-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/home-background.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/imgs\/home\/Asset 1.png": {
 		"ft": 32768,
@@ -410,6 +463,37 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/mobile-background copy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/mobile-background copy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/mobile-background.png": {
+		"ft": 32768,
+		"iS": 6164,
+		"oA": 0,
+		"oAP": "\/imgs\/mobile-background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/mobile-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/mobile-background.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/sprite-gallery-icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -507,6 +591,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/imgs\/versions\/why.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/why.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/why.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1979,6 +2073,12 @@
 		"oAP": "\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_styles-section.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_thank-you-page.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/01da2902d465a1124473b2496f215ca0cf821162\/_thank-you-page.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/07a4cac9d6b0c85a57c49ed3fa08cdce01dc0b0f\/_mixins-master.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -3146,13 +3246,13 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 1,
+		"oS": 3,
 		"uL": 0
 		},
 	"\/sass\/typography\/_copy.scss": {
@@ -3342,6 +3442,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content.php",
+		"oF": 0
+		},
+	"\/test-doc.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test-doc.html",
 		"oF": 0
 		}
 	},
@@ -5289,6 +5395,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

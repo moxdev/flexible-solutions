@@ -76,18 +76,11 @@
         background-repeat: no-repeat;
         color: #fff;
         text-align:center;
-        // display: block;
-        // flex-direction: column;
-        // flex-wrap: wrap;
-        // justify-content: center;
-        // align-content: center;
-        // @include margin-auto;
-        // position: relative;
-        // z-index: 30000;
-        // width: 300px;
-        // height: 300px;
-        // padding:2em;
-        // background-color:#808080;
+
+        a {
+            color: #fff;
+            text-decoration:none;
+        }
 
         .highlight-content-wrapper {
             padding: 1em;
@@ -139,11 +132,6 @@
 
         .highlight-url {
             margin:0;
-
-            a {
-                color: #fff;
-                text-decoration:none;
-            }
         }
     }
 
