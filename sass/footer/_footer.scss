@@ -7,6 +7,10 @@
     font-family: $font__reg;
     border-top: 3px solid $color__brand-1;
 
+    a {
+        text-decoration: none;
+    }
+
     .site-info {
         font-size:.85em;
 

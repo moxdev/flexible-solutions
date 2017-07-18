@@ -70,18 +70,18 @@ function mm4_you_contact_page_sidebar() {
 
         <?php } ?>
 
-        <aside id="directions">
+        <!-- <aside id="directions">
             <h2>Get Directions</h2>
             <div id="side-map-canvas" class="map-canvas"></div>
             <form id="form-directions" onSubmit="calcRoute(); return false;">
                 <label for="start">Starting Address</label>
                 <input type="text" id="start" name="start">
-                <input type="hidden" id="end" name="end" value="<?php echo $add . ', ' . $city . ', ' . $state . ' ' . $zip; ?>">
+                <input type="hidden" id="end" name="end" value="<?php //echo $add . ', ' . $city . ', ' . $state . ' ' . $zip; ?>">
                 <div class="error-box" id="map-error"></div>
                 <input type="button" onclick="calcRoute();" value="Get Directions" class="btn">
             </form>
             <div id="directions-panel"></div>
-        </aside>
+        </aside> -->
 
     <?php }
 }
