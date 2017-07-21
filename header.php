@@ -74,7 +74,7 @@
 	<?php if( has_post_thumbnail() && !is_page_template('frontpage-b.php') ):
 		$img = get_the_post_thumbnail_url(); ?>
 
-		<div class="featured-image-header" style='background-image: url("<?php echo $img; ?>"'>
+		<div class="featured-image-header" style='background-image: url("<?php echo $img; ?>");'>
 			<?php
 			if ( function_exists( 'get_field' ) ) {
 				$feature_headline = get_field( 'featured_image_headline' );  ?>

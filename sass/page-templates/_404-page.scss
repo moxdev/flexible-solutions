@@ -1,21 +1,72 @@
 .error404 {
+  #content {
+    background-color:$color__brand-2;
+    color: #fff;
+    min-height: 400px;
+    text-align: center;
+    a {
+      color: #fff;
+      &:hover, &:visited, &:active {
+        color: #fff;
+      }
+    }
 
-  #masthead.site-branding {
-
+    .page-content {
+      margin-top: 1.5em;
+    }
   }
 
-  #content.site-content {
-    min-height: 400px;
-    clear: both;
+  h1.entry-title {
+    color: #fff;
+    margin-bottom: .5em;
+    font-size: 110%;
+  }
+
+  #masthead {
+    border-bottom: 3px solid red;
+
+    .aux-navigation {
+      display: none;
+    }
   }
 
   @include respond-to(medium) {
-    #masthead .site-branding {
-      float: left;
-      position: relative;
-      width: 300px;
-      left: 0;
-      margin-left: 0;
+
+    #masthead {
+      padding-top: 1em;
+      padding-bottom: .5em;
+
+      .site-branding {
+        float: left;
+        width: auto;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        padding: 0;
+
+        .site-branding-phone {
+          display: none;
+        }
+      }
+
+      .aux-navigation {
+        display: block;
+
+      }
+    }
+
+    .main-navigation {
+      display: none;
+    }
+
+    h1.entry-title {
+      font-size: 2em;
+    }
+
+    #primary {
+      float: none;
+      width: 100%;
     }
   }
 }
+
