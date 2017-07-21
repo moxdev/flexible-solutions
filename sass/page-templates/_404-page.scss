@@ -1,0 +1,21 @@
+.error404 {
+
+  #masthead.site-branding {
+
+  }
+
+  #content.site-content {
+    min-height: 400px;
+    clear: both;
+  }
+
+  @include respond-to(medium) {
+    #masthead .site-branding {
+      float: left;
+      position: relative;
+      width: 300px;
+      left: 0;
+      margin-left: 0;
+    }
+  }
+}

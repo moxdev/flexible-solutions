@@ -48,9 +48,9 @@ function mm4_you_setup() {
 	add_image_size('gallery-thumb', 300, 200, true);
 	add_image_size('home-highlight-image', 300, 300, true);
 	add_image_size('featured-image', 1400, 360, true);
-	add_image_size('styles-image-square', 500, 9999, false);
-	add_image_size('styles-image-tall', 500, 9999, false);
-	add_image_size('styles-image-custom', 500, 9999, false);
+	add_image_size('styles-image-square', 700, 9999, false);
+	add_image_size('styles-image-tall', 700, 9999, false);
+	add_image_size('styles-image-custom', 700, 9999, false);
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(

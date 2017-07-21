@@ -47,7 +47,11 @@
 				<?php if($yt): ?><li><a href="<?php echo $yt; ?>" id="social-link-yt" target="_blank">View Our You Tube Channel</a></li><?php endif; ?>
 			</ul>
 			<?php }
-
+			if ( has_nav_menu( 'aux' ) ) : ?>
+				<nav id="contact-navigation" class="aux-navigation" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'aux', 'menu_id' => 'aux-menu', 'container' => '' ) ); ?>
+				</nav><!-- #site-navigation -->
+			<?php endif;
 			if ( has_nav_menu( 'primary' ) || has_nav_menu( 'aux' ) || has_nav_menu( 'footer' ) ) : ?>
 				<button class="menu-toggle" aria-expanded="false"><?php esc_html_e( 'Menu', 'mm4-you' ); ?></button>
 			<?php endif;  ?>
@@ -72,7 +76,6 @@
 
 		<div class="featured-image-header" style='background-image: url("<?php echo $img; ?>"'>
 			<?php
-
 			if ( function_exists( 'get_field' ) ) {
 				$feature_headline = get_field( 'featured_image_headline' );  ?>
 
@@ -80,7 +83,6 @@
 
 				 <?php
 			}
-
 			 ?>
 
 		</div><!-- featured-image-header -->

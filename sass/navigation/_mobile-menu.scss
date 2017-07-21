@@ -12,6 +12,10 @@
     @include font-smooth;
     letter-spacing: .2px;
 
+    #mobile-aux-nav {
+        display: none;
+    }
+
     #mobile-main-nav {
         padding-top: 3em;
 

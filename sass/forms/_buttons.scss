@@ -13,6 +13,7 @@ input[type="submit"] {
 	line-height: 1;
 	padding: .6em 1em .6em;
 	box-shadow: none;
+	transition: all 0.3s;
 	-webkit-appearance: none;
 	 -moz-appearance: none;
 	 appearance: none;
@@ -25,7 +26,7 @@ input[type="submit"]:hover {
 
 	background-color: $color__button-hover;
 	color: $color__brand-2;
-	transition: background-color 1s ease-in-out;
+	// transition: background-color 1s ease-in-out;
 	// transition: color 1s ease-in-out;
 }
 

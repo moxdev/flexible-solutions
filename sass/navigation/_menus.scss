@@ -21,6 +21,7 @@ nav ul, ul.social-media, #mobile-menu ul {
     padding: .25em .5em;
     color: $color__brand-2;
     font-size: 1.4rem;
+    transition: all 0.3s;
 }
 
 .menu-toggle,
@@ -33,8 +34,6 @@ nav ul, ul.social-media, #mobile-menu ul {
 .menu-toggle:hover {
     background-color: $color__brand-2;
     color: #fff;
-    transition: background 1s ease-in-out;
-    transition: color 1s ease-in-out;
 }
 
 
